@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
 const Cart = mongoose.model("Cart");
-const stripe = require("stripe")("sk_test_QV3Rpkc2E26D82xL2gYFnJhO00xkvOMvro");
+const stripe = require("stripe")("Your own stripe key");
 
 const requireLogin = require("../middleware/requireLogin");
 
