@@ -1,0 +1,55 @@
+{
+  "name": "hook2",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.12.0",
+    "node": "13.0.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-github-login": "^1.0.3",
+    "react-multi-carousel": "^2.5.5",
+    "react-redux": "^7.2.0",
+    "react-responsive-carousel": "^3.2.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-star-rating": "^1.4.2",
+    "react-star-rating-component": "^1.4.1",
+    "react-star-ratings": "^2.3.0",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
