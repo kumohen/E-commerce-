@@ -65,7 +65,7 @@ const Payment = ({
     <div>
       {show ? <Alert variant="success">You succesfully payment</Alert> : ""}
       <StripeCheckout
-        stripeKey="pk_test_zKpriPTZuuvkW0Lmv32D4kIW00Hpmdac2h"
+        stripeKey="Your stripe key"
         name="React "
         token={makePayment}
         amount={product.price * 100}
